@@ -15,6 +15,7 @@ add_library(mm1_core
         include/mm1_sim/SinkAgent.h
         include/mm1_sim/Deprecated.h
         include/mm1_sim/ThreadSafeRunningStats.h
+        src/mm1_sim/ThreadSafeRunningStats.cpp
 )
 
 target_include_directories(mm1_core PUBLIC include)

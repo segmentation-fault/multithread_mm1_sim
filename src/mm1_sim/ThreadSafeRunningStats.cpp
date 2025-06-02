@@ -42,7 +42,9 @@ void mm1_sim::ThreadSafeRunningStats::update(double x, double w) {
 double mm1_sim::ThreadSafeRunningStats::mean() {
     std::lock_guard<std::mutex> lock(mutex_);
 
-    return M.load();
+    double M_val = M.load();
+
+    return M_val;
 }
 
 double mm1_sim::ThreadSafeRunningStats::std() {

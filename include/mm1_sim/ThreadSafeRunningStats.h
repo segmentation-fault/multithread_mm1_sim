@@ -1,0 +1,8 @@
+//
+// Created by Admin on 2025-06-02.
+//
+
+#ifndef THREADSAFERUNNINGSTATS_H
+#define THREADSAFERUNNINGSTATS_H
+
+#endif //THREADSAFERUNNINGSTATS_H
